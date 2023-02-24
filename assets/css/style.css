@@ -1,0 +1,113 @@
+
+body
+{
+    background-color: gainsboro;
+}
+.advertisement
+{
+    width: 229px;
+    height: 266px;
+    position: relative;
+    background-color: white;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+
+.advertisement img
+{
+    width: 229px;
+    height: 171px;
+    object-fit: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.hall 
+{
+    background-color: #4264fd;
+    color: white;
+    position: absolute;
+    bottom: 100px;
+
+}
+
+.title
+{
+    background-color: white;
+    /* position: absolute; */
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    margin: 5px 0px 5px 10px ;
+}
+
+ .title1 span,a{
+   
+    text-decoration: none;
+    color: black;
+}
+
+.date 
+{
+    font-size: 14px;
+    color:#8d94ad;
+    margin-top: 5px;
+    display: block;
+}
+
+.title1 span
+{
+    font-weight: 700;
+   
+}
+
+i 
+{
+    position: absolute;
+    bottom: 230px;
+    left: 190px;
+    display: block;
+    font-size: 25px;
+}
+
+
+.fa-percent
+{
+    left: 10px;
+    position: absolute;
+    background-color:#f5a623;
+    border-radius: 50%;
+    font-size: 14px;
+    padding: 2px;
+    color: white;
+    /* background-size: cover; */
+    padding: 6px;
+ 
+}
+
+.icon
+{
+    width: 9px;
+    height: 9px;
+}
+
+.icon .kreditler
+{
+    visibility: hidden;
+    width: 100px;
+    background-color: #f5a623;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin-left: 10px;
+    top:37px;
+    position: absolute;
+
+}
+
+.icon:hover .kreditler {
+    visibility: visible;
+  }
